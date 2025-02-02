@@ -1,0 +1,683 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --custom-width: 100vw;
+  --design-width: 1920;
+  --ratio: calc(var(--custom-width) / var(--design-width));
+}
+body {
+  margin: 0px 0px;
+  padding: 0px;
+}
+.parent-div {
+  width: var(--custom-width);
+  height: calc(5610 * var(--ratio));
+}
+.gradient-0 {
+  background: -webkit-radial-gradient(
+    #1d233478 0%,
+    #242c4435 54%,
+    #08090aff 99%
+  );
+}
+.gradient-1 {
+  background: -webkit-radial-gradient(
+    #00000087 5%,
+    #1d233478 89%,
+    #08090aff 99%
+  );
+}
+.language-7248-0 {
+  font-size: calc(18 * var(--ratio));
+  letter-spacing: calc(1.8 * var(--ratio));
+  line-height: calc(18 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+.nodeBg-7249 {
+  opacity: 1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAGCAYAAAARx7TFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABaSURBVHgBlY5RDcAgDEQrYRKQNAebg80BczCcIAEJSEACEso1lIQQ+OCSlzSXl0uJmR9gaRL0Fwhy3FzjwdEJVnvXihNkkIABvwrfOG1Uyiq8tPhBxCjLtJsCHYZc08wW28wAAAAASUVORK5CYII=);
+}
+.survive-7236-0 {
+  font-size: calc(100 * var(--ratio));
+  letter-spacing: calc(3 * var(--ratio));
+  line-height: calc(100 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.sub-text-7237-0 {
+  font-size: calc(30 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(30 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.the-story-butto-7232-0 {
+  font-size: calc(16 * var(--ratio));
+
+  line-height: calc(22 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+.nodeBg-7233 {
+  opacity: 1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAQCAYAAAB6Hg0eAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADvSURBVHgBzVVbEcIwEDxQUAmRgIRKwAE4AAetg9QBOEBCJFRCcYCEIzcTpttMSwN5THcmX/fa3F4uO2YeiEjRtvDc01ZhO1bZc+cRDRWGramhvnCp0NiC8WGPosyQGvb0UPe65FjLzDmnISc5V+sFtQ5rAQrILd8ijlQD+c1EuoDgDoI1JYCbZwN5W/oH0i1I0sdIK1KBEiJhTTHwpF2fhfkcl1QXnCNnIHnQSnHS3SCuoxzg6UrR34bW67RId6ackAI8feZqxue05pOLnD93R7Atb/FC5PyvTHPIFi9IEOfu08GfX24W8PiVmVTSvQHlpdf9JjQjYgAAAABJRU5ErkJggg==);
+}
+.main-7252-0 {
+  font-size: calc(18 * var(--ratio));
+  letter-spacing: calc(1.8 * var(--ratio));
+  line-height: calc(18 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.about-7253-0 {
+  font-size: calc(18 * var(--ratio));
+  letter-spacing: calc(1.8 * var(--ratio));
+  line-height: calc(18 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.features-7254-0 {
+  font-size: calc(18 * var(--ratio));
+  letter-spacing: calc(1.8 * var(--ratio));
+  line-height: calc(18 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.requirements-7255-0 {
+  font-size: calc(18 * var(--ratio));
+  letter-spacing: calc(1.8 * var(--ratio));
+  line-height: calc(18 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.subscribe-7256-0 {
+  font-size: calc(18 * var(--ratio));
+  letter-spacing: calc(1.8 * var(--ratio));
+  line-height: calc(18 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+.gradient-2 {
+  background: -webkit-radial-gradient(
+    #ffffff00 0%,
+    #00000000 60%,
+    #080a0bff 99%
+  );
+}
+.h3-7207-0 {
+  font-size: calc(30 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(30 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.h3-7207-1 {
+  font-size: calc(30 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(30 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: underline;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.about-game-text-7203-0 {
+  font-size: calc(20 * var(--ratio));
+
+  line-height: calc(30 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+.nodeBg-7211 {
+  opacity: 1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAnCAYAAAACeRhJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGGSURBVHgBrZaNbYMwEIUvqAMwgjdoRiAbNBO03YBM0HQCyAS0E6QbpBu0G4QN0g2uz3Aoxj/EJjzpZHHYn+znX6I7xMw5oqB7BIBCXLjXG82RQM581ZnmCA2PPFY6SA+DXaWB0OCF/YoHWeY6oCwWguKEyI10a9aJAkEVQhnf74hPSpHH3B/J76OHps1FsTdSLWLrq5tNQBT1QzK1Wa1WbTQoYO4uBAmCyDX3AEhNKQqZ66kXNhuJJ4o011ZmQBSKxvq/nfLFAQGiTfWZ+0uRGnq0iLnKMvcS2c4x+4/GG1Cfw8+UqAxD0CB7ZmrA1pSgziMxdWf2CnGUmYwHCUybezD+KXKXw22QwEoU30aqQK8qipBvr2m/WuO7BKykVJCYv6F+NgdVfONG9e5+2RavVrqZMj94sAH2Rf3ZPEhRP5M5zREaflgrv5H8aGU/RLC00Y+IYYHqS7KlOWL30dAdeGaPUmAFh5V895eLgARWLwIS2Gkp0DIvNoGt+frMSTuWAz3r1tc/G6keqlzLqSYAAAAASUVORK5CYII=);
+}
+.nodeBg-7216 {
+  opacity: 1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAnCAYAAAACeRhJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAF/SURBVHgBrZaBkYJADEUDFVgCJVCCdnCWYAXSgVCBdqAdYAd6HdiB28FdB9zfI8yEHOxm4f5MZoeMPLI/S4QI6rpug9jSGgFQIL66XidaKtxcdWNVtEA5YqNy5yXbzGfyV79l+gdQgWh9E2glyKtEmM3XoG+EE9eV1fwp0I7XQd78khJBlGWZw3JQ6TZm/qRHgN2xNCJVeBilghhWY7mLVImqzskglt+iE9ez5gdBqMpsfqwis/lREMOi5ptADKuxPEVqZL4ZxNrTjPlJoJD5qRUN5jcqfUwG8Wg5qvRnMoj60VKI6xuqvPkn1GJevylczUnN9/cw/MwV4YYPLLVIOcSOG2AD8Sm+qvSejScTiCEPGv/bNIC89A+DHiH3UL5cph6YR6rxHdqK1AuVpI0RQPxZqUXKUf+KkBnE80Zu4ffVkOZGQWyuns9NCDIJor5DhYJcKCbVNa2WjAp1zdHfEZsMciSO/xrQIWbuFEg/1Zv7pFSpb8h4dwyw6BdHSD8s+R+Z1/60FAAAAABJRU5ErkJggg==);
+}
+.nodeBg-7219 {
+  opacity: 1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAADCAYAAAAZdbZvAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAtSURBVHgBzcUBDQBACEJRbrsARrSCiaxkBJsgLfRtH4BDHknXJ/bF17QqZVg2hxQGM5DM4jMAAAAASUVORK5CYII=);
+}
+.gradient-3 {
+  background: linear-gradient(
+    180.01deg,
+    #00000000 0%,
+    #000000e8 37%,
+    #000000ff 45%,
+    #000000cf 64%,
+    #00000000 100%
+  );
+}
+.gradient-4 {
+  background: -webkit-radial-gradient(#00000000 0%, #000000ff 88%);
+}
+.h3-7180-0 {
+  font-size: calc(30 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(30 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.h1-7181-0 {
+  font-size: calc(100 * var(--ratio));
+  letter-spacing: calc(3 * var(--ratio));
+  line-height: calc(100 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.feature-1-7191-0 {
+  font-size: calc(50 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(50 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #3db3a2ff;
+}
+
+.text-of-feature-7192-0 {
+  font-size: calc(18 * var(--ratio));
+
+  line-height: calc(26 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.feature-2-7193-0 {
+  font-size: calc(32 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(32 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #3db3a2ff;
+}
+
+.feature-3-7194-0 {
+  font-size: calc(32 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(32 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #3db3a2ff;
+}
+.nodeBg-7186 {
+  opacity: 1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAADPCAYAAADfwABOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAvSURBVHgB7cbRCQAwCMRQLR2k+0/VTc4T/HSEBAIvJb1waahxYgIAAADAiut/owBc3gmYugFUKQAAAABJRU5ErkJggg==);
+}
+.nodeBg-7187 {
+  opacity: 1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAB1CAYAAABkkTBdAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAqSURBVHgB7cYBCQAACANBFYPYP5VN5gRbuIeHcwBlzAkswi5BEB4ieS8G5QcI5J/7kJwAAAAASUVORK5CYII=);
+}
+.gradient-5 {
+  background: linear-gradient(
+    180.01deg,
+    #00000000 0%,
+    #000000e8 37%,
+    #000000ff 45%,
+    #000000cf 64%,
+    #00000000 100%
+  );
+}
+.gradient-6 {
+  background: -webkit-radial-gradient(
+    #ffffff00 3%,
+    #00000000 19%,
+    #080a0bff 99%
+  );
+}
+.sub-heading-7171-0 {
+  font-size: calc(30 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(30 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.heading-7172-0 {
+  font-size: calc(100 * var(--ratio));
+  letter-spacing: calc(3 * var(--ratio));
+  line-height: calc(100 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+.nodeBg-7148 {
+  opacity: 1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAj8AAAGTCAYAAADHmnM/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAjPSURBVHgB7d3NbVRXGIDhOxaLWdJBkg5CBYEOoAJghQwL7AoMFQQWYLMyVJBQgUkFgQ6SDrxC9sJ2zlViCUX+QXFkLL/PI11dezSr0UjnnfMdjxfb29s39/b2bk4AANfccrncvTHCZ+3o6OjpYrHYnQAArqnRO/OGz8cb8y8jfF6urq4+mwAArqnNzc3b47axMgEAhIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAivgBAFLEDwCQIn4AgBTxAwCkiB8AIEX8AAAp4gcASBE/AECK+AEAUsQPAJAifgCAFPEDAKSIHwAgRfwAACniBwBIET8AQIr4AQBSxA8AkCJ+AIAU8QMApIgfACBF/AAAKeIHAEgRPwBAyo2Jc21ubn4/cablcrn78OHD3QkArjjxc443b95sHBwcrC0WCwv7Gfb29ubbDxMAXF335/Vc/Jxh3vE5PDx8MF6oW6urq39MnGpra2vn9evXa48fP34xAcAVsr29fXN/f39nrOmfxnp+z5mfs+2M67nwOd/R0dHzlZWVjfkNNgHAFTFvZIzpxO9jivN+fEB/MD8mfk4xj7vGjs+HET5vJ841XqcPI4Def/78eW0CgCvgnzO7847PuydPnjw7flz8nOB43DXvZkx8tVHWa2P3574D4gB8a69evfpx3HbGWv7yy/CZiZ+TGXf9B+vr6/Oh8Hfj2pgA4BsZ05u748P4L+NaP+ksqvj5F+Ouixm7Py9GZd8duz+3JwC4ZFtbW0/H9Obncd179OjRryc9R/x8wbjr4ubdnxGP65PdHwAu2byBMdbw+ezpnTHq+nja8xZjwX827j+N67eJ+9Pf4663Excy/+n7eAN+Gj/6fiQALsN347o9rjvnHVuZv+fnw8Qx4fM/OTg4WB+z1rsTAFyOP5fL5a2v+W8DfwFrQ9hjqEzdhAAAAABJRU5ErkJggg==);
+}
+.nodeBg-7151 {
+  opacity: 1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAD9CAYAAACWcqboAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA2SURBVHgB7cc5EQAgDAXRHEaQgsuUaMIJDj4pMMHMbvXWqmpYF+6+embYCwAAAADgP0jamXkuLW4LTCjw/1QAAAAASUVORK5CYII=);
+}
+.nodeBg-7150 {
+  opacity: 1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAj8AAAACCAYAAAC3171tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAvSURBVHgB7dZBDQAgDATBnhNcVw5IIySoaGZeK2HT3auqdgEADJfk5MUfIACA8S50cwVPwF7NawAAAABJRU5ErkJggg==);
+}
+.nodeBg-7149 {
+  opacity: 1;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAj8AAAACCAYAAAC3171tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA1SURBVHgB7dZBEYBADASw7tQIUnDZJ5aQggSq4yZRkdSambsAAA7X3V82PleSpwAADrfneX/gcgZbmQjYigAAAABJRU5ErkJggg==);
+}
+.os-7162-0 {
+  font-size: calc(24 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(24 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #3db8a5ff;
+}
+
+.windows-7163-0 {
+  font-size: calc(18 * var(--ratio));
+
+  line-height: calc(22 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.memory-7165-0 {
+  font-size: calc(24 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(24 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #3db8a5ff;
+}
+
+.c-8-gb-7166-0 {
+  font-size: calc(18 * var(--ratio));
+
+  line-height: calc(22 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.graphics-7168-0 {
+  font-size: calc(24 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(24 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #3db8a5ff;
+}
+
+.nvidia-7169-0 {
+  font-size: calc(18 * var(--ratio));
+
+  line-height: calc(22 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.processor-7154-0 {
+  font-size: calc(24 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(24 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #3db8a5ff;
+}
+
+.intel-core-7155-0 {
+  font-size: calc(18 * var(--ratio));
+
+  line-height: calc(22 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.storage-7157-0 {
+  font-size: calc(24 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(24 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #3db8a5ff;
+}
+
+.c-8-gb-available-7158-0 {
+  font-size: calc(18 * var(--ratio));
+
+  line-height: calc(22 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+.gradient-7 {
+  background: -webkit-radial-gradient(
+    #ffffff00 0%,
+    #00000000 46%,
+    #080a0bff 99%
+  );
+}
+.h3-7134-0 {
+  font-size: calc(30 * var(--ratio));
+  letter-spacing: calc(2 * var(--ratio));
+  line-height: calc(30 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.h1-7135-0 {
+  font-size: calc(100 * var(--ratio));
+  letter-spacing: calc(3 * var(--ratio));
+  line-height: calc(100 * var(--ratio));
+
+  font-family: Roboto;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.text-7136-0 {
+  font-size: calc(24 * var(--ratio));
+
+  line-height: calc(36 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.your-email-addr-7139-0 {
+  font-size: calc(14 * var(--ratio));
+
+  line-height: calc(14 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 400;
+
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.subscribe-now-7141-0 {
+  font-size: calc(16 * var(--ratio));
+
+  line-height: calc(16 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: capitalize;
+  white-space: pre-wrap;
+  color: #1a1917ff;
+}
+
+.subscribe-now-7141-1 {
+  font-size: calc(16 * var(--ratio));
+
+  line-height: calc(16 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: lowercase;
+  white-space: pre-wrap;
+  color: #1a1917ff;
+}
+
+.quotes-7115-0 {
+  font-size: calc(12 * var(--ratio));
+  letter-spacing: calc(1.2 * var(--ratio));
+  line-height: calc(12 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.main-7111-0 {
+  font-size: calc(12 * var(--ratio));
+  letter-spacing: calc(1.2 * var(--ratio));
+  line-height: calc(12 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.about-7112-0 {
+  font-size: calc(12 * var(--ratio));
+  letter-spacing: calc(1.2 * var(--ratio));
+  line-height: calc(12 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.features-7113-0 {
+  font-size: calc(12 * var(--ratio));
+  letter-spacing: calc(1.2 * var(--ratio));
+  line-height: calc(12 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
+
+.requirements-7114-0 {
+  font-size: calc(12 * var(--ratio));
+  letter-spacing: calc(1.2 * var(--ratio));
+  line-height: calc(12 * var(--ratio));
+
+  font-family: Open Sans;
+  font-weight: 700;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  color: #ffffffff;
+}
